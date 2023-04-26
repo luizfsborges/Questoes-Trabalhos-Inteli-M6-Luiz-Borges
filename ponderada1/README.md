@@ -161,3 +161,11 @@ Ok, agora basta rodar o script como se fosse um executável qualquer em Linux:
 ```
 
 Pronto! Você já está preparado para começar a desenvolver seu autoestudo. Divirta-se! =D
+
+# Desenvolvimento do autoestudo
+
+No desenvolvimento deste autoestudo a ferramenta ROS foi utilizada para atuar como o receptor das publicações que o script Python "entrega.py" está fazendo no tópico relacionado ao acionamento dos movimentos da animação. Esta foi uma prática importante visto que utilizaremos protocolo similar para nos comunicarmos com o robô TurtleBot3 Burger. No ambiente de simulação virtual, podemos isolar o desenvolvimento da lógica de navegação de eventuais erros de hardware que possam ocorrer no robô.
+
+Neste link, encontra-se o vídeo de demonstração dos novos movimentos do turtlesim que formam uma estrela: 
+
+https://drive.google.com/file/d/1t2vhI17mZoD7OSX0W7AJv3DysPGDWfM0/view?usp=share_link
