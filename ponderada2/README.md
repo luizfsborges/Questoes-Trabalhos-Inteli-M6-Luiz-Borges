@@ -23,5 +23,5 @@ Padrão de qualidade:
 1. Representação fidedigna do ambiente físico escolhido como um grafo; (peso 1)
 2. Escolha adequada do algoritmo de grafo para otimização da rota e demonstrar que compreendeu o algoritmo; (peso 2)
 3. Funcionamento correto do software capaz de gerar a rota otimizada utilizando conceitos de programação orientada à objetos; (peso 3)
-4. Explicação coerente e concisa da implementação; (peso 2)
+4. Explicação coerente e concisa da implementação (min 250 caracteres e máximo 1500); (peso 2)
 5. Congruência entre o que foi escrito e o código disposto no repositório do github; (peso 2)
