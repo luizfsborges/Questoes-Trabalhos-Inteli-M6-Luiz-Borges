@@ -26,3 +26,7 @@ Padrão de qualidade:
 No código fornecido, o Publisher é responsável por enviar comandos de velocidade linear para o tópico "/cmd_vel". Esses comandos são enviados periodicamente através do método publisher.publish(msg), onde msg contém as informações de velocidade a serem enviadas. O Gazebo, por sua vez, está configurado para receber essas mensagens do tópico "/cmd_vel" e interpretá-las para controlar o movimento do Turtlebot3 simulado. O Gazebo utiliza essas informações para atualizar a simulação do Turtlebot3, movendo-o para frente com a velocidade linear especificada.
 
 Por outro lado, o Subscriber é responsável por receber informações de posição do Turtlebot3 simulado, que são enviadas pelo Gazebo para o tópico "/odom". Essas informações são recebidas pelo método callback_odometria(msg), onde msg contém os dados de posição atual do Turtlebot3. A partir dessas informações, o código calcula a distância percorrida pelo robô desde o início do movimento. Quando essa distância atinge ou ultrapassa a distância alvo especificada, o Turtlebot3 é parado por meio do método parar_turtlebot(). Dessa forma, o Publisher, o Subscriber e o Gazebo trabalham em conjunto para controlar o movimento do Turtlebot3 e monitorar sua posição durante a simulação.
+
+Abaixo, um gif que demonstra a funcionalidade do script desenvolvido:
+
+<img src="2023-05-14 23-01-44 - Trim.gif">
