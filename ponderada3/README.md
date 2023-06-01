@@ -8,7 +8,7 @@ Desenvolva um script em Python capaz de identificar rachaduras em paredes de con
 
 ## Padrão de qualidade
 
-Para esta atividade, espera-se a capacidade demonstrável de interagir com imagens utilizando os conceitos de visão computacional e modelos preditivos pré-treinados. A entrega deve ser um vídeo demonstrando o funcionamento do projeto, um texto conciso descrevendo como foi feita a implementação e o link para o repositório público no github onde foi feita a implementação. O código fonte pode ser tanto em formato de de script em Python (`.py`) como em formato de notebook Jupyter (`.ipynb`). A nota se divide em:
+Para esta atividade, espera-se a capacidade demonstrável de interagir com imagens utilizando os conceitos de visão computacional e modelos preditivos pré-treinados. A entrega deve ser um vídeo demonstrando o funcionamento do projeto, um texto conciso descrevendo como foi feita a implementação e o link para o repositório público no github onde foi feita a implementação. O código fonte pode ser tanto em formato de script em Python (`.py`) como em formato de notebook Jupyter (`.ipynb`). A nota se divide em:
 
 1. Setup do modelo pré-treinado utilizado; (peso 2)
 2. Retreinamento do modelo para o conjunto de dados disponibilizado; (peso 3)
