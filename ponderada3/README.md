@@ -14,3 +14,9 @@ Para esta atividade, espera-se a capacidade demonstrável de interagir com image
 2. Retreinamento do modelo para o conjunto de dados disponibilizado; (peso 3)
 3. Explicação coerente e concisa da implementação (min 250 caracteres e máximo 1500); (peso 3)
 4. Congruência entre o que foi escrito e o código disposto no repositório do github; (peso 2)
+
+## Demonstração do reconhecimento de rachaduras em tempo real (documentação no Jupyter)
+
+https://github.com/luizfsborges/Questoes-Trabalhos-Inteli-M6-Luiz-Borges/assets/40524905/ccc880d3-7375-472a-a943-920e9ad7de65
+
+
