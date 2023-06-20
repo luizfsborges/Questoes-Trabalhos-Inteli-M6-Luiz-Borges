@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ponderada 4</title>
+
+    <style>
+        #preview {
+            max-width: 30rem;
+            max-height: 30rem;
+        }
+    </style>
+
+    <script>
+        function previewImage(event) {
+            var reader = new FileReader();
+            reader.onload = function(){
+                var output = document.getElementById('preview');
+                output.src = reader.result;
+            };
+            reader.readAsDataURL(event.target.files[0]);
+        }
+    </script>
+
+</head>
+<body>
+    <h1>Ponderada 4 - Servidor, banco de dados e visão computacional</h1>
+    <h2> Autor: Luiz Fernando da Silva Borges </h2>
+        <img id="preview" src="/temp_image" alt="Preview">
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" onchange="previewImage(event)"> <br> <br>
+        <button style="height:60px; width:200px" type="submit">Encontrar faces</button>
+    </form>
+    <br>
+</body>
+</html>
